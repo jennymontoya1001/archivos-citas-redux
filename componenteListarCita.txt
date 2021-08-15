@@ -1,4 +1,8 @@
-<div className="card mt-5">
+import React from 'react'
+
+export const ListarCitas = () => {
+    return (
+        <div className="card mt-5">
             <div className="card-body">
                 <h2 className="card-title text-center">Agenda</h2>
                 <div className="lista-citas">
@@ -20,7 +24,7 @@
                                 <td>Sintomas</td>
                                 <td><button className="btn btn-danger">
                                     Borrar &times;
-                                   </button>
+                                </button>
                                 </td>
                             </tr>
                         </tbody>
@@ -28,3 +32,5 @@
                 </div>
             </div >
         </div >
+    )
+}
